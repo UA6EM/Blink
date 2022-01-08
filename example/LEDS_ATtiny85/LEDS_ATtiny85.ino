@@ -10,7 +10,7 @@
 #include "Blink.h"
 
 uint8_t led01_pin = 0;
-uint8_t led02_pin = 1; (LED_BUILTIN)
+uint8_t led02_pin = 1; //(LED_BUILTIN)
 uint8_t led03_pin = 2;
 
 uint16_t work_01_time = 2000;  // включено (время включенного состояния мс) LED1
