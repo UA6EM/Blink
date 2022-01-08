@@ -1,3 +1,9 @@
+/*
+  Blink.h - Library for flashing LED.
+  Created by  UA6EM, Victor, 07.01.2022
+  Released into the public domain.
+*/
+
 #include "Blink.h"
 
 // реализация методов
