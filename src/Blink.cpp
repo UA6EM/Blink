@@ -7,7 +7,7 @@
 #include "Blink.h"
 
 // реализация методов
-Blink::Blink(uint8_t led_pin, uint16_t led_on=500, uint16_t led_off=500, uint16_t count=200,bool inverse=false)
+Blink::Blink(uint8_t led_pin, uint16_t led_on=500, uint16_t led_off=500, uint16_t count=100,bool inverse=false)
 {
   pinMode(led_pin, OUTPUT);
   _led_pin = led_pin;
