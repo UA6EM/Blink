@@ -22,7 +22,7 @@ bool inverse_03 = false;
 
 Blink leds_01(led01_pin, work_01_time, pause_01, impuls_01, inverse_01);
 Blink leds_02(led02_pin, work_02_time, pause_02, impuls_02);
-Blink leds_03(led03_pin, work_03_time, pause_03, impuls_03);
+Blink leds_03(led03_pin);
 
 void setup() {
   leds_01.start();
