@@ -5,7 +5,7 @@ uint8_t led01_pin = 13;
 uint8_t led02_pin = 11;
 uint8_t led03_pin = 10;
 
-uint16_t work_01_time = 1000;  // включено (время включенного состояния мс) LED1
+uint16_t work_01_time = 2000;  // включено (время включенного состояния мс) LED1
 uint16_t pause_01 = 10000;     // выключено (время выключенного состояния мс) LED1
 uint16_t impuls_01 = 270;      // число импульсов LED1
 bool inverse_01 = true;
@@ -21,8 +21,8 @@ uint16_t impuls_03 = 5000;     // число импульсов LED3
 bool inverse_03 = false;
 
 Blink leds_01(led01_pin, work_01_time, pause_01, impuls_01, inverse_01);
-Blink leds_02(led02_pin, work_02_time, pause_02, impuls_02, inverse_02);
-Blink leds_03(led03_pin, work_03_time, pause_03, impuls_03, inverse_03);
+Blink leds_02(led02_pin, work_02_time, pause_02, impuls_02);
+Blink leds_03(led03_pin, work_03_time, pause_03, impuls_03);
 
 void setup() {
   leds_01.start();
