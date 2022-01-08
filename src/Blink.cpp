@@ -9,11 +9,6 @@ Blink::Blink(uint8_t led_pin, uint16_t led_on, uint16_t led_off, uint16_t count,
   _led_off = led_off;
   _count = count * 2 - 1;
   _inverse = inverse;
-  if(inverse){
-    _flag = false; 
-  }else{
-  _flag = true;
-  }
   _ends = false;
 }
 
