@@ -26,7 +26,7 @@ class Blink {   // Blink
 
 
 // реализация методов
-Blink::Blink(uint8_t led_pin, uint16_t led_on, uint16_t led_off, uint16_t count,bool inverse false)
+Blink::Blink(uint8_t led_pin, uint16_t led_on, uint16_t led_off, uint16_t count,bool inverse)
 {
   pinMode(led_pin, OUTPUT);
   _led_pin = led_pin;
