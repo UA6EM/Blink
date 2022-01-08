@@ -10,7 +10,7 @@
 // описание класса
 class Blink {   // Blink
   public:
-    Blink(uint8_t led_pin, uint16_t led_on, uint16_t led_off, uint16_t count, bool inverse=false);
+    Blink(uint8_t led_pin, uint16_t led_on=500, uint16_t led_off=500, uint16_t count=100, bool inverse=false);
     void start();
     void myrun();
   private:
