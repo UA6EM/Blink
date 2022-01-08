@@ -16,7 +16,7 @@ void Blink::start()
 {
   _mymillis = millis();
   _ends = false;
-  _flag = !_inverse;
+  _flag = false;
   digitalWrite(_led_pin, _flag);
 }
 
